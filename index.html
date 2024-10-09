@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form with PHP Validation</title>
+</head>
+<body>
+
+<h2>PHP Form Validation</h2>
+<form action="validate.php" method="post">
+    Name: <input type="text" name="name" required><br><br>
+    Email Address: <input type="email" name="email" required><br><br>
+    LinkedIn: <input type="url" name="linkedin" value="https://www.linkedin.com/"><br><br>
+    Comments: <textarea name="comments" rows="5" cols="40"></textarea><br><br>
+    Gender:
+    <input type="radio" name="gender" value="male" required> Male
+    <input type="radio" name="gender" value="female" required> Female
+    <input type="radio" name="gender" value="no"> No<br><br>
+    
+    <input type="submit" value="Send My Information">
+</form>
+
+</body>
+</html>
